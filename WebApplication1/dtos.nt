@@ -20,6 +20,6 @@ export class {{ dto.Name }} {{- if dto.HasBaseClass }} extends {{ dto.BaseClass.
     }
 }
 {{-     end
-   Save output ("ts_client\\dtos\\" + dto.FullName + ".tsx")
+   Save output ("ts_client/dtos/" + dto.FullName + ".tsx")
    end 
 }}
