@@ -1,5 +1,6 @@
 namespace WebApplication1.Models
 {
+    [ExportToTypescript(@"relative\path\")]
     public class WeatherForecast
     {
         public DateOnly Date { get; set; }
